@@ -344,7 +344,7 @@
 							</a> <!-- 타이틀 클릭했을 때 /board/boardOne.jsp?boardNo= 댓글입력폼과 (댓글입력리스트), 페이징까지 -->
 						</td>
 						<td>
-						<%=m.getCreatedate() %>
+						<%=m.getCreatedate().substring(0, 10) %>
 						</td>
 					</tr>  
 					
